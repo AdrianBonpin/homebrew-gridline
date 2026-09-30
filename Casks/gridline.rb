@@ -17,9 +17,9 @@
 cask "gridline" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.8.2"
-  sha256 arm:   "635b2d5a7dc108e3a57e8be24652c9ab94dbc7a9d281eb971ca12b71e5389acb",
-         intel: "e2b0df34c65f3fb0b0ead9388da7b26e713cbee0c2448a287597bdb8c45d0eba"
+  version "0.8.3"
+  sha256 arm:   "735efcec219f00f14de680bb02c1831e98afbecdc320527731938cb309e70a3b",
+         intel: "4515d30a98d79f0f352abbe47678676b28f8838108250e095bc54ebdf3d0aeca"
 
   url "https://github.com/AdrianBonpin/gridline/releases/download/v#{version}/Gridline_#{version}_#{arch}.dmg"
   name "Gridline"
